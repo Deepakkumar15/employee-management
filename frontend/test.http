@@ -1,0 +1,10 @@
+DELETE  http://localhost:8081/61110f042ab25ae78c755e08
+Content-Type: application/json
+
+{
+    "name": "vasya and strings",
+    "salary":"4444444444",
+    "gender":"male",
+    "team":"Marketing",
+    "address":"alwar"
+}
