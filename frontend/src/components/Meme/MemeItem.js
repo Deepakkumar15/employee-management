@@ -24,11 +24,9 @@ const MemeItem = props => {
           </NavLink>
         </Td>
         <Td>
-          <Td>
           <button className = "button" onClick={() => { axios.delete(`http://localhost:8081/${props.id}`, window.location.reload()) }}>
             DELETE
           </button>
-          </Td>
         </Td>
       </Tr>
       </Tbody>
